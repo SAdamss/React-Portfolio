@@ -22,7 +22,7 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-black'>
           Sophie Douglas
         </h1>
-        <h2 className='text-4xl sm:text-4xl font-bold text-black'>
+        <h2 className='text-4xl sm:text-3xl font-bold text-black'>
           I'm an MGA Academy of Performing Arts graduate: Musical Theatre BA (Hons)
         </h2>
      
@@ -43,16 +43,16 @@ const Home = () => {
       <div class='w-full h-[80px] flex justify-between items-center  px-4  bg-gray-300'>
      <ul className='hidden md:flex'>
      <a href='https://www.spotlight.com/9177-8970-3480' className='Spotlight'>
-     <SiSpotlight size={35} />
+     <SiSpotlight size={25} />
      </a>
       <a href='https://www.instagram.com/sophiedouglas761/?hl=en' className="Instagram">
-      <FaInstagramSquare size={35} />
+      <FaInstagramSquare size={25} />
       </a>
       <a href='https://twitter.com/sophie_douglas1' className='Twitter'>
-     <FaTwitterSquare size={35} />
+     <FaTwitterSquare size={25} />
      </a>
      <a href='https://mediaviewer.spotlight.com/artist/showreels?artistRef=F267214' className='Showreel'>
-     <FaCameraRetro size={35} />
+     <FaCameraRetro size={25} />
      </a>
      
      </ul>

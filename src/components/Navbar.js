@@ -19,13 +19,13 @@ export const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
   return (
-    <div className='w-full h-[80px] flex justify-between items-center  px-4 bg-gray-300 text-black'>
+    <div className='w-full h-[80px] flex justify-between items-center pt-4  px-4 bg-gray-300 text-black'>
     <div>
     <img src={Logo} alt='Logo Image' style={{ width: '35px' }} />
     </div>
 
      {/* menu */}
-     <ul className='hidden md:flex'>
+     <ul className='hidden md:flex pt-4'>
      <li>
        <Link to='home' smooth={true} duration={500}>
          Home

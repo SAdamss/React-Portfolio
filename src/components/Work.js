@@ -12,14 +12,14 @@ const Work = () => {
     <div name='work' className='w-full md:h-screen text-black bg-gray-300'>
       <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-black border-blue-500'>
+          <p className='text-3xl font-bold inline border-b-4 text-black border-blue-500'>
             Work
           </p>
-          <p className='py-6'>// Check out some of my recent work</p>
+        
         </div>
 
 {/* Container */}
-        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-2'>
 
             {/* Grid Item */}
           <div class="w-full rounded"
@@ -28,7 +28,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-black tracking-wider'>
+              <span className='text-2xl font-bold text-black tracking-wider pl-2'>
                 We Came To Dance
               </span>
               <div className='pt-8 text-center'>
@@ -51,7 +51,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-black tracking-wider'>
+              <span className='text-2xl font-bold text-black tracking-wider pl-3'>
                We Came To Dance: Leading a breathing exercise
               </span>
               <div className='pt-8 text-center'>
@@ -75,7 +75,7 @@ const Work = () => {
           > 
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-black tracking-wider'>We Came To Dance: Playing a Scientist
+              <span className='text-2xl font-bold text-black tracking-wider pl-3'>We Came To Dance: Playing a Scientist
                
               </span>
               <div className='pt-8 text-center'>
@@ -98,7 +98,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-black tracking-wider'>
+              <span className='text-2xl font-bold text-black tracking-wider pl-3'>
                 PhotoShoot as "Emichu"
               </span>
               <div className='pt-8 text-center'>
@@ -118,7 +118,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-black tracking-wider'>
+              <span className='text-2xl font-bold text-black tracking-wider pl-3'>
               "Emichu", "Jesiva" & "Ungayu"
               </span>
               <div className='pt-8 text-center'>
@@ -137,7 +137,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-black tracking-wider'>
+              <span className='text-2xl font-bold text-black tracking-wider pl-3'>
                "Mrs Mushnik" in Little Shop of Horrors.
               </span>
               <div className='pt-8 text-center'>
