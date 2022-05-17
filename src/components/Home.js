@@ -48,18 +48,26 @@ const Home = () => {
           '@media screen and (max-width:600px) display:block bg-gray-300 flex flex-col justify-center items-center'
         }
       >
+      <li>
       <a href='https://www.spotlight.com/9177-8970-3480' className='Spotlight'>
       <SiSpotlight size={25} />
       </a>
+      </li>
+      <li>
        <a href='https://www.instagram.com/sophiedouglas761/?hl=en' className="Instagram">
        <FaInstagramSquare size={25} />
        </a>
+       </li>
+       <li>
        <a href='https://twitter.com/sophie_douglas1' className='Twitter'>
       <FaTwitterSquare size={25} />
       </a>
+      </li>
+      <li>
       <a href='https://mediaviewer.spotlight.com/artist/showreels?artistRef=F267214' className='Showreel'>
       <FaCameraRetro size={25} />
       </a>
+      </li>
       </ul>
 
         <div>
