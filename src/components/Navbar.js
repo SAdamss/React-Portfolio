@@ -84,12 +84,7 @@ export const Navbar = () => {
           </Link>
         </li>
 
-        <li className='py-1 text-4xl'>
-        {' '}
-        <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-          Social
-        </Link>
-      </li>
+      
 
         <li className='py-1 text-4xl'>
           {' '}
