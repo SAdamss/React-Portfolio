@@ -45,10 +45,10 @@ const Home = () => {
         <div
         className={
           
-          '@media screen and (max-width:600px) display:block bg-gray-300 md:flex justify-center items-center inline-grid grid-cols-2 gap-4'
+          '@media screen and (max-width:600px) display:block bg-gray-300 md:flex justify-center items-center  gap-4'
         }
       >
-      <span>
+      <span class='inline-flex items-baseline'>
       
       <a href='https://www.spotlight.com/9177-8970-3480' className='Spotlight'>
       <SiSpotlight size={30} />
