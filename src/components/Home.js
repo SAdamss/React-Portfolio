@@ -62,8 +62,8 @@ const Home = () => {
         {/* Mobile menu */}
         <ul
         className={
-        
-          '@media screen and (max-width:600px) bg-gray-300 flex flex-col justify-center items-center'
+          
+          '@media screen and (max-width:600px) display:none display:block bg-gray-300 flex flex-col justify-center items-center'
         }
       >
       <a href='https://www.spotlight.com/9177-8970-3480' className='Spotlight'>
