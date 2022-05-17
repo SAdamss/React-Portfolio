@@ -2,8 +2,11 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-gray-300 flex justify-center items-center p-100'>
-    <form method='POST' action="mailto:sophiedouglasperformer@gmail.com" className='flex flex-col max-w-[600px] w-full'>
+
+
+
+    <div name='contact' className='w-full h-screen bg-gray-300 flex justify-center items-center p-100 pt-8'>
+    <form method='POST' action="mailto:sophiedouglasperformer@gmail.com" className='flex flex-col max-w-[auto] w-full'>
         <div className='pb-8'>
             <p className='text-3xl font-bold inline border-b-4 border-blue-500 text-black'>Contact</p>
             <p className='text-black py-4'>// Submit enquiry below</p>
