@@ -42,7 +42,7 @@ const Home = () => {
 
 
         {/* Mobile menu */}
-        <ul
+        <div
         className={
           
           '@media screen and (max-width:600px) display:block bg-gray-300 md:flex justify-center items-center'
@@ -67,7 +67,8 @@ const Home = () => {
       </a>
 
       </span>
-      </ul>
+      </div>
+      
 
         <div>
           <button className='text-black group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-500 hover:border-blue-500'>
