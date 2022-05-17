@@ -42,11 +42,6 @@ export const Navbar = () => {
        </Link>
      </li>
      <li>
-     <Link to='contact' smooth={true} duration={500}>
-       Social
-     </Link>
-   </li>
-     <li>
        <Link to='contact' smooth={true} duration={500}>
          Contact
        </Link>
