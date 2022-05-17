@@ -48,7 +48,7 @@ const Home = () => {
           '@media screen and (max-width:600px) display:block bg-gray-300 md:flex justify-center items-center'
         }
       >
-      <span class='inline-gird grid-cols-4 gap-4'>
+      <span class='inline-gird grid-cols-2 gap-4'>
       
       <a href='https://www.spotlight.com/9177-8970-3480' className='Spotlight'>
       <SiSpotlight size={30} />
