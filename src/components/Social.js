@@ -11,14 +11,22 @@ import {
 
 export const Social = () => {
   return (
-    <div name='work' className='w-full md:h-screen text-black bg-gray-300'>
+    <div name='social' className='w-full md:h-screen text-black bg-gray-300'>
       <div className='max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-3xl font-bold inline border-b-4 text-black border-blue-500'>
             Social
           </p>
 
-          <div class='w-full h-[80px] flex justify-between items-center  px-4  bg-gray-300'>
+          <div class='@media only screen and (max-width: 767px) {
+            .responsive.html_header_top #header_main .social_bookmarks {
+            right: -30%;
+            width: auto;
+            margin-top: 5%;
+            }}
+            @media only screen and (max-width: 767px) {
+            .responsive.html_header_top #header_main .social_bookmarks {
+            right: -10%; }} bg-gray-300'>
           <ul className='hidden md:flex'>
           <a href='https://www.spotlight.com/9177-8970-3480' className='Spotlight'>
           <SiSpotlight size={45} />
